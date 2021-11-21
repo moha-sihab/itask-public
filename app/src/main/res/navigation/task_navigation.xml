@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/task_navigation"
+    app:startDestination="@id/addTaskFragment">
+
+
+    <dialog
+        android:id="@+id/addCategoryFragment"
+        android:name="com.sihabudin.itask.addCategory.fragment.AddCategoryFragment"
+        android:label="fragment_add_category"
+        tools:layout="@layout/fragment_add_category" >
+
+    </dialog>
+    <dialog
+        android:id="@+id/addTaskFragment"
+        android:name="com.sihabudin.itask.addTask.fragment.AddTaskFragment"
+        android:label="fragment_add_task"
+        tools:layout="@layout/fragment_add_task" >
+
+        <action
+            android:id="@+id/action_addTaskFragment_to_categoryListSelectedFragment"
+            app:destination="@id/categoryListSelectedFragment" />
+
+        <action
+            android:id="@+id/action_addTaskFragment_to_addSubTaskFragment"
+            app:destination="@id/addSubTaskFragment" />
+
+
+    </dialog>
+    <dialog
+        android:id="@+id/categoryListSelectedFragment"
+        android:name="com.sihabudin.itask.category.fragment.CategoryListSelectedFragment"
+        android:label="fragment_category_list_selected"
+        tools:layout="@layout/fragment_category_list_selected" >
+        <action
+            android:id="@+id/action_categoryListSelectedFragment_to_addCategoryFragment"
+            app:destination="@id/addCategoryFragment" />
+        <action
+            android:id="@+id/action_categoryListSelectedFragment_to_addTaskFragment"
+            app:destination="@id/addTaskFragment" />
+
+    </dialog>
+    <dialog
+        android:id="@+id/addSubTaskFragment"
+        android:name="com.sihabudin.itask.addTask.fragment.AddSubTaskFragment"
+        tools:layout="@layout/fragment_add_sub_task"
+        android:label="AddSubTaskFragment" >
+        <action
+            android:id="@+id/action_addSubTaskFragment_to_addTaskFragment"
+            app:destination="@id/addTaskFragment" />
+    </dialog>
+
+
+</navigation>

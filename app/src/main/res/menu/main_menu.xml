@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/ic_baseline_search_24"
+        android:title="@string/searchTask"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="ifRoom|collapseActionView" />
+    <item
+        android:id="@+id/action_credit"
+        android:orderInCategory="100"
+        android:title="@string/Credits"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_category"
+        android:orderInCategory="100"
+        android:title="@string/category"
+        app:showAsAction="never" />
+</menu>

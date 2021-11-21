@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.sihabudin.itask.home.fragment.HomeFragment"
+        android:label="HomeFragment" >
+        <action
+            android:id="@+id/action_homeFragment_to_task_navigation"
+            app:destination="@id/task_navigation"
+            app:enterAnim="@anim/nav_default_pop_enter_anim" />
+        <action
+            android:id="@+id/action_homeFragment_to_taskByCategoryFragment"
+            app:destination="@id/taskByCategoryFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_categoryListFragment2"
+            app:destination="@id/categoryListFragment2" />
+        <action
+            android:id="@+id/action_homeFragment_to_searchFragment"
+            app:destination="@id/searchFragment" />
+    </fragment>
+    <include app:graph="@navigation/task_navigation" />
+    <fragment
+        android:id="@+id/tasksFragment"
+        android:name="com.sihabudin.itask.task.fragment.TasksFragment"
+        android:label="TasksFragment"
+        tools:layout="@layout/fragment_tasks" >
+        <action
+            android:id="@+id/action_tasksFragment_to_detailTaskFragment3"
+            app:destination="@id/detailTaskFragment3" />
+    </fragment>
+    <fragment
+        android:id="@+id/historyFragment"
+        android:name="com.sihabudin.itask.history.fragment.HistoryFragment"
+        android:label="HistoryFragment" >
+        <action
+            android:id="@+id/action_historyFragment_to_detailTaskFragment3"
+            app:destination="@id/detailTaskFragment3" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailTaskFragment3"
+        android:name="com.sihabudin.itask.detailTask.fragment.DetailTaskFragment"
+        android:label="fragment_detail_task"
+        tools:layout="@layout/fragment_detail_task" >
+        <argument
+            android:name="idTask"
+            app:argType="long"
+            android:defaultValue="0L" />
+    </fragment>
+    <fragment
+        android:id="@+id/taskByCategoryFragment"
+        android:name="com.sihabudin.itask.taskByCategory.fragment.TaskByCategoryFragment"
+        android:label="fragment_task_by_category"
+        tools:layout="@layout/fragment_task_by_category" >
+        <argument
+            android:name="idCategory"
+            app:argType="integer"
+            android:defaultValue="0" />
+        <argument
+            android:name="category"
+            app:argType="string"
+            android:defaultValue='""' />
+        <action
+            android:id="@+id/action_taskByCategoryFragment_to_detailTaskFragment3"
+            app:destination="@id/detailTaskFragment3" />
+    </fragment>
+    <fragment
+        android:id="@+id/categoryListFragment2"
+        android:name="com.sihabudin.itask.category.fragment.CategoryListFragment"
+        android:label="fragment_category_list"
+        tools:layout="@layout/fragment_category_list" >
+        <action
+            android:id="@+id/action_categoryListFragment2_to_editCategoryFragment"
+            app:destination="@id/editCategoryFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/editCategoryFragment"
+        android:name="com.sihabudin.itask.editCategory.fragment.EditCategoryFragment"
+        android:label="EditCategoryFragment" >
+        <argument
+            android:name="idCategory"
+            app:argType="integer"
+            android:defaultValue="0" />
+    </fragment>
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.sihabudin.itask.search.fragment.SearchFragment"
+        android:label="fragment_search"
+        tools:layout="@layout/fragment_search" >
+        <argument
+            android:name="searchQuery"
+            app:argType="string"
+            android:defaultValue='""' />
+        <action
+            android:id="@+id/action_searchFragment_to_detailTaskFragment3"
+            app:destination="@id/detailTaskFragment3" />
+    </fragment>
+</navigation>

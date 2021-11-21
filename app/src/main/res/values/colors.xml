@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#00000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="whiteDark">#A8A8A8</color>
+    <color name="whiteDarkOpacity50">#80A8A8A8</color>
+    <color name="whiteLight">#EFEDED</color>
+
+    <!-- <color name="primaryColorDark">#00001f</color>
+      <color name="primaryColor">#0C1144</color>
+    <color name="primaryColorLight">#3c3670</color>
+
+    -->
+     <color name="yellow">#FBFE00</color>
+     <color name="red">#C80230</color>
+     <color name="blue">#1919BD</color>
+     <color name="green">#1EBA24</color>
+    <color name="purple">#5415C3</color>
+
+    <color name="primaryColorDark">#00001f</color> <!--Color primary (dark)-->
+    <color name="primaryColor">#0C1144</color> <!--Color primary (light)-->
+    <color name="primaryVariantColorDark">#1919BD</color> <!--Color primary variant (dark)-->
+    <color name="primaryVariantColor">#2436E8</color> <!--Color primary variant (light)-->
+
+    <color name="secondaryColorDark">#c4cb00</color> <!--Color primary (dark)-->
+    <color name="secondaryColor">#fbfe00</color> <!--Color primary (light)-->
+    <color name="secondaryVariantColorDark">#EFF43E</color> <!--Color primary variant (dark)-->
+    <color name="secondaryVariantColor">#F1F35A</color> <!--Color primary variant (light)-->
+
+
+    <color name="errorColorDark">#cf6679</color> <!--Color error (dark)-->
+    <color name="errorColor">#b00020</color> <!--Color error (light)-->
+
+    <!--Color surface (light), color on error (light), -->
+    <!--color on surface (dark), color on surface (dark)-->
+
+    <color name="surfaceColor">#121212</color> <!--Color surface (dark)-->
+    <!--Color on secondary (light), color on background (light),-->
+    <!--color on surface (light)-->
+
+</resources>
