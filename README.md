@@ -2,6 +2,8 @@
 
 iTask is an Android Application that I build for managing daily tasks or reminding tasks. iTask such as to-do list application where you can create task and set reminder. iTask had been released on PlayStore.
 
+# Download iTask on Playstore with following link https://bit.ly/itask01
+
 ![itaskBanner](https://github.com/moha-sihab/Itask/blob/master/Feature%20graphic%20-%20itask.jpg?raw=true)
 ![screenshot](https://github.com/moha-sihab/Itask/blob/master/github.jpg?raw=true)
 
