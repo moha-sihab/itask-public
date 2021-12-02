@@ -19,7 +19,7 @@ iTask is an Android Application that I build for managing daily tasks or remindi
 
 # Credit
 
-Thanks to  Thanks to pranavpandey for dynamic toast
+Thanks to pranavpandey for dynamic toast
 
 https://github.com/pranavpandey/dynamic-toasts
  
