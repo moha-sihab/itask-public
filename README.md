@@ -14,7 +14,7 @@ iTask is an Android Application that I build for managing daily tasks or remindi
 - Android Jetpack Navigation
 - Obfuscation
 - SQLCipher 
-- Alarm Manager
+- Work Manager
 - Koin
 
 # Credit
