@@ -1,0 +1,17 @@
+<resources>
+
+    <string-array name="interval_notif">
+        <item>@string/interval_1</item>
+        <item>@string/interval_3</item>
+        <item>@string/interval_6</item>
+        <item>@string/interval_12</item>
+    </string-array>
+
+    <string-array name="interval_notif_value">
+        <item>@string/pref_interval_1</item>
+        <item>@string/pref_interval_3</item>
+        <item>@string/pref_interval_6</item>
+        <item>@string/pref_interval_12</item>
+    </string-array>
+
+</resources>

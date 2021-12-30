@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+    <SwitchPreference
+        app:key="@string/pref_key_notify"
+        app:summary="@string/pref_notify_summary"
+        app:title="@string/pref_notify_name" />
+    <ListPreference
+        app:defaultValue="@string/pref_interval_1"
+        app:entries="@array/interval_notif"
+        app:entryValues="@array/interval_notif_value"
+        app:key="@string/pref_key_interval_notif"
+        app:title="@string/pref_interval_title_notif"
+        app:useSimpleSummaryProvider="true"/>
+
+
+</androidx.preference.PreferenceScreen>
