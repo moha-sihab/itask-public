@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.pranavpandey.android:dynamic-toasts:4.1.0@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/2bd211e74455da0b97903216574cd412/transformed/jetified-dynamic-toasts-4.1.0/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/2bd211e74455da0b97903216574cd412/transformed/jetified-dynamic-toasts-4.1.0/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/2bd211e74455da0b97903216574cd412/transformed/jetified-dynamic-toasts-4.1.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/0b680ed28575b04e0ee3b3346a7e5cfc/transformed/jetified-dynamic-toasts-4.1.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/0b680ed28575b04e0ee3b3346a7e5cfc/transformed/jetified-dynamic-toasts-4.1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/0b680ed28575b04e0ee3b3346a7e5cfc/transformed/jetified-dynamic-toasts-4.1.0/res" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.pranavpandey.android/dynamic-toasts/4.1.0/da30f8cce203c7b95b0eb521a031f92eaeed02fe/dynamic-toasts-4.1.0-javadoc.jar!/" />

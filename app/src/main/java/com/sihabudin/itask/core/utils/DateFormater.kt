@@ -4,12 +4,12 @@ import java.text.SimpleDateFormat
 import java.util.*
 
 object DateFormater {
-    fun SimpleDateFormat.formatterDateFull() : SimpleDateFormat = SimpleDateFormat("dd-MM-yyyy HH:mm:ss")
-    fun SimpleDateFormat.formatterDate() : SimpleDateFormat = SimpleDateFormat("yyyy-MM-dd")
-    fun SimpleDateFormat.formatterDisplayDate() : SimpleDateFormat = SimpleDateFormat("dd MMM yyyy")
-    fun SimpleDateFormat.formatterDisplayDateFull() : SimpleDateFormat = SimpleDateFormat("EEE, dd MMM yyyy, HH:mm")
-    fun SimpleDateFormat.formatterTime() : SimpleDateFormat = SimpleDateFormat("HH:mm")
-    fun SimpleDateFormat.formatterMonth() : SimpleDateFormat = SimpleDateFormat("MMM")
+    fun SimpleDateFormat.formatterDateFull() : SimpleDateFormat = SimpleDateFormat("dd-MM-yyyy HH:mm:ss",Locale.ENGLISH)
+    fun SimpleDateFormat.formatterDate() : SimpleDateFormat = SimpleDateFormat("yyyy-MM-dd",Locale.ENGLISH)
+    fun SimpleDateFormat.formatterDisplayDate() : SimpleDateFormat = SimpleDateFormat("dd MMM yyyy",Locale.ENGLISH)
+    fun SimpleDateFormat.formatterDisplayDateFull() : SimpleDateFormat = SimpleDateFormat("EEE, dd MMM yyyy, HH:mm",Locale.ENGLISH)
+    fun SimpleDateFormat.formatterTime() : SimpleDateFormat = SimpleDateFormat("HH:mm",Locale.ENGLISH)
+    fun SimpleDateFormat.formatterMonth() : SimpleDateFormat = SimpleDateFormat("MMM",Locale.ENGLISH)
     fun fromStringToDateLong(dateString : String) : Long {
         var vDateLong : Long = 0
          try {

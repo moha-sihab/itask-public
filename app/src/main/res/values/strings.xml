@@ -68,4 +68,21 @@
     <string name="openTime">Open Time Dialog</string>
     <string name="openAlarm">Open Alarm</string>
     <string name="deleteSubtask">Delete SubTask</string>
+    <string name="taskNotificationTitle">iTask Reminder</string>
+    <string name="pref_key_notify">key_notification</string>
+    <string name="pref_notify_name">Notification</string>
+    <string name="pref_notify_summary">Reminder iTask</string>
+    <string name="pref_key_interval_notif">key_interval</string>
+    <string name="pref_interval_title_notif">Interval Reminder</string>
+    <string name="title_activity_settings">Settings Activity</string>
+
+    <string name="pref_interval_1">1</string>
+    <string name="pref_interval_3">3</string>
+    <string name="pref_interval_6">6</string>
+    <string name="pref_interval_12">12</string>
+    <string name="interval_1">Every 1 Hour</string>
+    <string name="interval_3">Every 3 Hours</string>
+    <string name="interval_6">Every 6 Hours</string>
+    <string name="interval_12">Every 12 Hours</string>
+
 </resources>

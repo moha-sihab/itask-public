@@ -12,7 +12,8 @@ class DateFormaterTest{
     fun fromStringToDateLong(){
         val dateString ="22-09-2021 06:30:00"
         val result  = DateFormater.fromStringToDateLong(dateString)
-        assertThat(result).isEqualTo(1632267000000)
+        assertThat(result).isEqualTo(1632292200000)
+        //1632267000000
     }
 
     @Test

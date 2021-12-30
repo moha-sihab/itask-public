@@ -18,6 +18,7 @@ class TaskInteractor(private val taskRepository: ITaskRepository) : TaskUseCase 
     override fun getSubTaskByIdTask(id: Long) = taskRepository.getSubTaskByIdTask(id)
     override fun getTaskByStatus(status: String) = taskRepository.getTaskByStatus(status)
     override fun getTaskToday() = taskRepository.getTaskToday()
+    override fun getTaskTodayStatusOpen() = taskRepository.getTaskTodayStatusOpen()
     override fun getTaskTomorrow() = taskRepository.getTaskTomorrow()
     override fun getTaskNextWeek() = taskRepository.getTaskNextWeek()
     override fun getTaskHistory() = taskRepository.getTaskHistory()

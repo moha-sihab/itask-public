@@ -5,9 +5,10 @@
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/41c670fc4eed45e5bee00d02dad9e75e/lifecycle-reactivestreams-2.3.1/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/a8f0540aaffb8d00ff91ae3bfce07df7/transformed/lifecycle-reactivestreams-2.3.1/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/8accf7e6e2f4a6e2d85324fdcd321fb1/transformed/lifecycle-reactivestreams-2.3.1/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/8007bd6803b037a6c8b79262a7eb76ca/transformed/lifecycle-reactivestreams-2.3.1/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/8007bd6803b037a6c8b79262a7eb76ca/transformed/lifecycle-reactivestreams-2.3.1/AndroidManifest.xml" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/8007bd6803b037a6c8b79262a7eb76ca/transformed/lifecycle-reactivestreams-2.3.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/b8e4705c1793adabfec280c2e32c05f5/transformed/lifecycle-reactivestreams-2.3.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/b8e4705c1793adabfec280c2e32c05f5/transformed/lifecycle-reactivestreams-2.3.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/b8e4705c1793adabfec280c2e32c05f5/transformed/lifecycle-reactivestreams-2.3.1/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

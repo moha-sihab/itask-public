@@ -156,12 +156,12 @@ class DetailTaskFragment : DialogFragment() {
             )
 
         if (binding.switchReminderDetailTask.isChecked) {
-            AlarmReceiver().setAlarm(
+           /* AlarmReceiver().setAlarm(
                 requireContext(),
                 vDueDate,
                 tasks[0].idAlarm,
                 binding.txtTitleDetailTask.text.toString()
-            )
+            )*/
         } else {
               Log.e("cancel alarm id =",tasks[0].idAlarm.toString())
               AlarmReceiver().cancelAlarm(requireContext(),tasks[0].idAlarm)

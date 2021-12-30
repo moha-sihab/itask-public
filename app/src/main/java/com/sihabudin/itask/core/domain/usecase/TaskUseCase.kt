@@ -15,6 +15,7 @@ interface TaskUseCase {
     fun getSubTaskByIdTask(id: Long): Flowable<List<SubTaskModel>>
     fun getTaskByStatus(status: String): Flowable<List<TaskWithCategoryModel>>
     fun getTaskToday(): Flowable<List<TaskWithCategoryModel>>
+    fun getTaskTodayStatusOpen(): Flowable<List<TaskWithCategoryModel>>
     fun getTaskTomorrow(): Flowable<List<TaskWithCategoryModel>>
     fun getTaskNextWeek(): Flowable<List<TaskWithCategoryModel>>
     fun getTaskHistory(): Flowable<List<TaskWithCategoryModel>>

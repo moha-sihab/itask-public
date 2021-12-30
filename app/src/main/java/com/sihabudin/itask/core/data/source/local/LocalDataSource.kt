@@ -23,6 +23,8 @@ class LocalDataSource(private val taskDao: TaskDao) {
 
     fun getTaskToday(): Flowable<List<TaskWithCategoryEntity>> = taskDao.getTaskToday()
 
+    fun getTaskTodayStatusOpen(): Flowable<List<TaskWithCategoryEntity>> = taskDao.getTaskTodayStatusOpen()
+
     fun getTaskTomorrow(): Flowable<List<TaskWithCategoryEntity>> = taskDao.getTaskTomorrow()
 
     fun getTaskNextWeek(): Flowable<List<TaskWithCategoryEntity>> = taskDao.getTaskNextWeek()

@@ -5,6 +5,10 @@
       <map>
         <entry key="..\:/github/iTask/app/src/main/res/drawable/chip_background_color.xml" value="0.1" />
         <entry key="..\:/github/iTask/app/src/main/res/drawable/chip_background_purple.xml" value="0.1" />
+        <entry key="..\:/github/iTask/app/src/main/res/drawable/chip_background_red.xml" value="0.1" />
+        <entry key="..\:/github/iTask/app/src/main/res/drawable/chip_background_yellow.xml" value="0.1" />
+        <entry key="..\:/github/iTask/app/src/main/res/drawable/chip_text_color.xml" value="0.1" />
+        <entry key="..\:/github/iTask/app/src/main/res/drawable/chip_text_red.xml" value="0.1" />
         <entry key="..\:/github/iTask/app/src/main/res/drawable/gradient_blue.xml" value="0.1" />
         <entry key="..\:/github/iTask/app/src/main/res/drawable/gradient_green.xml" value="0.1" />
         <entry key="..\:/github/iTask/app/src/main/res/drawable/gradient_orange.xml" value="0.1" />
@@ -39,7 +43,7 @@
         <entry key="..\:/github/iTask/app/src/main/res/layout/fragment_credit.xml" value="0.14666666666666667" />
         <entry key="..\:/github/iTask/app/src/main/res/layout/fragment_detail_task.xml" value="0.13828125" />
         <entry key="..\:/github/iTask/app/src/main/res/layout/fragment_edit_category.xml" value="0.22" />
-        <entry key="..\:/github/iTask/app/src/main/res/layout/fragment_history.xml" value="0.3333333333333333" />
+        <entry key="..\:/github/iTask/app/src/main/res/layout/fragment_history.xml" value="0.16666666666666666" />
         <entry key="..\:/github/iTask/app/src/main/res/layout/fragment_home.xml" value="0.22" />
         <entry key="..\:/github/iTask/app/src/main/res/layout/fragment_search.xml" value="0.1" />
         <entry key="..\:/github/iTask/app/src/main/res/layout/fragment_task_by_category.xml" value="0.127734375" />
@@ -50,16 +54,18 @@
         <entry key="..\:/github/iTask/app/src/main/res/layout/item_category_list.xml" value="0.3333333333333333" />
         <entry key="..\:/github/iTask/app/src/main/res/layout/item_category_list_selected.xml" value="0.35833333333333334" />
         <entry key="..\:/github/iTask/app/src/main/res/layout/item_history.xml" value="0.13828125" />
-        <entry key="..\:/github/iTask/app/src/main/res/layout/item_home.xml" value="0.5" />
+        <entry key="..\:/github/iTask/app/src/main/res/layout/item_home.xml" value="0.14666666666666667" />
         <entry key="..\:/github/iTask/app/src/main/res/layout/item_search.xml" value="0.1" />
         <entry key="..\:/github/iTask/app/src/main/res/layout/item_sub_task.xml" value="0.4466666666666667" />
         <entry key="..\:/github/iTask/app/src/main/res/layout/item_sub_task_edit.xml" value="0.3333333333333333" />
         <entry key="..\:/github/iTask/app/src/main/res/layout/item_task_by_category.xml" value="0.13828125" />
         <entry key="..\:/github/iTask/app/src/main/res/layout/item_tasks.xml" value="0.3333333333333333" />
+        <entry key="..\:/github/iTask/app/src/main/res/layout/settings_activity.xml" value="0.1" />
         <entry key="..\:/github/iTask/app/src/main/res/menu/activity_main_drawer.xml" value="0.1" />
         <entry key="..\:/github/iTask/app/src/main/res/menu/bottom_menu.xml" value="0.4970845481049563" />
         <entry key="..\:/github/iTask/app/src/main/res/menu/menu_main.xml" value="0.3333333333333333" />
         <entry key="..\:/github/iTask/app/src/main/res/menu/search_menu.xml" value="0.1" />
+        <entry key="..\:/github/iTask/app/src/main/res/xml/root_preferences.xml" value="0.1" />
         <entry key="..\:/github/iTask/app/src/main/res/xml/searchable.xml" value="0.1" />
       </map>
     </option>

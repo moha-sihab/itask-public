@@ -6,8 +6,9 @@
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/6040cf1ba8f0efa181099653480356fb/transformed/jetified-lifecycle-reactivestreams-ktx-2.3.1/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/8abf8ba4d144a1781fe51dd2536a98ad/transformed/jetified-lifecycle-reactivestreams-ktx-2.3.1/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/1bddab1c427d7420113b55f35c303ad1/transformed/jetified-lifecycle-reactivestreams-ktx-2.3.1/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/1bddab1c427d7420113b55f35c303ad1/transformed/jetified-lifecycle-reactivestreams-ktx-2.3.1/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/1bddab1c427d7420113b55f35c303ad1/transformed/jetified-lifecycle-reactivestreams-ktx-2.3.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/c2c951e81fb42ef463a5a441cd643c92/transformed/jetified-lifecycle-reactivestreams-ktx-2.3.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/c2c951e81fb42ef463a5a441cd643c92/transformed/jetified-lifecycle-reactivestreams-ktx-2.3.1/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/c2c951e81fb42ef463a5a441cd643c92/transformed/jetified-lifecycle-reactivestreams-ktx-2.3.1/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

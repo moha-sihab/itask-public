@@ -320,7 +320,7 @@ class AddTaskFragment : DialogFragment() {
 
     private fun setUpAlarm(alarm: Boolean, dateTime: Long, idAlarm: Int, message: String) {
         if (alarm) {
-            AlarmReceiver().setAlarm(requireContext(), dateTime, idAlarm, message)
+           // AlarmReceiver().setAlarm(requireContext(), dateTime, idAlarm, message)
         }
     }
 

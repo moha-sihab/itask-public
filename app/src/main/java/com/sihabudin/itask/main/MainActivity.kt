@@ -3,6 +3,7 @@
 package com.sihabudin.itask.main
 
 
+import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import android.view.Menu
@@ -23,6 +24,7 @@ import com.sihabudin.itask.core.utils.UserPref
 import com.sihabudin.itask.credit.CreditFragment
 import com.sihabudin.itask.databinding.ActivityMainBinding
 import com.sihabudin.itask.home.fragment.HomeFragmentDirections
+import com.sihabudin.itask.setting.SettingsActivity
 import io.reactivex.rxjava3.kotlin.subscribeBy
 import io.reactivex.rxjava3.kotlin.toObservable
 import org.koin.androidx.viewmodel.ext.android.viewModel
@@ -73,6 +75,11 @@ class MainActivity : AppCompatActivity() {
                 val openSearch =  HomeFragmentDirections.actionHomeFragmentToSearchFragment()
                 openSearch.searchQuery = "Search by title"
                 findNavController(R.id.nav_host_fragment).navigate(openSearch)
+                true
+            }
+            R.id.action_setting -> {
+                val settingIntent = Intent(this, SettingsActivity::class.java)
+                startActivity(settingIntent)
                 true
             }
             else -> super.onOptionsItemSelected(item)

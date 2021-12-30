@@ -84,6 +84,12 @@ class TaskRepository constructor(
         }
     }
 
+    override fun getTaskTodayStatusOpen(): Flowable<List<TaskWithCategoryModel>> {
+        return localDataSource.getTaskTodayStatusOpen().map {
+            DataMapper.mapTaskWithCategoryEntitiesToDomain(it)
+        }
+    }
+
     override fun getTaskTomorrow(): Flowable<List<TaskWithCategoryModel>> {
         return localDataSource.getTaskTomorrow().map {
             DataMapper.mapTaskWithCategoryEntitiesToDomain(it)

@@ -28,6 +28,8 @@ interface TaskDao {
     @Query("select task.*,category.category,category.colorLabel from task inner join category on task.id_category = category.id_category where strftime('%Y-%m-%d', datetime(task.due_date/1000, 'unixepoch','localtime'))=date('now','localtime')")
     fun getTaskToday(): Flowable<List<TaskWithCategoryEntity>>
 
+    @Query("select task.*,category.category,category.colorLabel from task inner join category on task.id_category = category.id_category where strftime('%Y-%m-%d', datetime(task.due_date/1000, 'unixepoch','localtime'))=date('now','localtime') and status='open'")
+    fun getTaskTodayStatusOpen(): Flowable<List<TaskWithCategoryEntity>>
 
     @Query("select task.*,category.category,category.colorLabel from task inner join category on task.id_category = category.id_category where strftime('%Y-%m-%d', datetime(task.due_date/1000, 'unixepoch','localtime'))=date('now','+1 day','localtime')")
     fun getTaskTomorrow(): Flowable<List<TaskWithCategoryEntity>>
